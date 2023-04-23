@@ -27,7 +27,7 @@ $\color{green}{Modeling}$ $\color{green}{(Edit}$ $\color{green}{Mode)}$
 21. `Edit` --> `Preferences` --> `Add-ons` --> `Search "Add Mesh: Extra Objects"` --> `ติ๊กถูก` --> `กลับหน้า view` --> `Ctrl + rigth click` จะเป็นการสร้างจุดเชื่อมโยงกันไปเรื่อยๆ สามารถเลือกจุดใหม่ เพื่อ `Ctrl + rigth click` ให้สร้างจุดเชื่อมโยงออกมามากกว่าหนึ่งจุดได้ เอาไว้ Add Modifier "Skin" ให้เป็นโครงร่าง ต้นไม้ ราวจับ ต่างๆ ได้ 
 22. กรณีที่พื้นผิวมันแปลกๆ ยิ่งทำ subdivision แล้วขึ้นขอบคม มันอาจจะมีพื้นผิวที่กลับด้านอยู่นะครับ ต้องแก้ตามนี้นะครับกดปุ่ม Tab ให้เป็น `Edit Mode` --> `ไปที่ Tab "Mesh"` --> `Normals` --> `Recalculate` Outside แล้วมันจะกลับด้านพื้นผิวทั้งหมดให้นะครับ ทีนี้ค่อยไปทำ subdivision ใหม่
 
-### Modifier (Edit Mode)
+$\color{green}{Modifier}$ $\color{green}{(Edit}$ $\color{green}{Mode)}$
 1. ``skin`` --> ใช้ทำเส้นให้หนาขึ้น ใช้ `ctrl + a` --> ลากเมาส์เพื่อกำหนดหนา บาง
 2. `subdivision surface` --> แบ่ง surface เพิ่ม ทำให้โมเดลดูไม่เป็นเหลี่ยม แต่ถ้าเพิ่มมากๆจะทำให้เครื่องช้าลง
 3. `simple deform` --> บิดรูปทรงโมเดล ใช้ร่วมกับจุด origin เพื่อเป็นจุดหมุน
@@ -37,7 +37,7 @@ $\color{green}{Modeling}$ $\color{green}{(Edit}$ $\color{green}{Mode)}$
 7. `decimate` --> ลดความโค้งมนให้เป็น low polygon
 8. `convert to > mesh` --> ทำได้ใน object mode รวมการทำ modifier เข้าในโมเดลเดียว (คล้ายรวมเลเยอร์ใน 2D)  หรือจะกด Apply ตรงส่วน modifier ก็ได้ครับ
 
-### View
+$\color{green}{View}$
 1. `1` --> ปรับมุมมองเป็นด้านหน้า (Front) **(กรณีที่ใช้โน๊ตบุ๊ค ต้องไปที่ Edit>Preferences>Input>ติ๊กถูกที่ Emulate Numpad** ก่อนนะครับ ถึงจะใช้คีย์ลัดพวกนี้ได้นะครับ ยกเว้นที่เป็นคีย์บอร์ดแยกตัวเลข ส่วนมากจะเจอในพวกจอ 16 นิ้ว)
 2. `3` --> ปรับมุมมองเป็นด้านขวา (Right)
 3. `5` --> ปรับมุมมองเป็นด้านเอียง (Perspective)
@@ -45,7 +45,7 @@ $\color{green}{Modeling}$ $\color{green}{(Edit}$ $\color{green}{Mode)}$
 5. `Shift + Middle Mouse` --> กดค้างไว้เพื่อเลื่อนมุมมองในระนาบ 2 มิติ แบบเดียวกับ Pan
 6. `Shift + z` --> สลับมุมมองระหว่าง Solid กับ Wireframe หรือจะกด z แล้วใช้เมส์เลือกเอาก็ได้ครับ
 
-### Selector
+$\color{green}{Selector}$
 1. `Click` --> `Shift + Click -->` เลือกพื้นที่แรก และพื้นที่ที่สอง ที่ต้องการเลือกพร้อมกัน
 2. `Alt + Click` --> เลือก Vertex, Edge, Face ทั้งลูบที่ติดกัน
 3. `Click` --> `Ctrl + Click` --> ระบบจะเลือกพื้นที่ที่เชื่อมต่อจากจุดที่คลิ๊กเมาส์บนวัตถุครั้งแรก จนถึงจุดที่คลิ๊กเมาส์บนวัตถุครั้งที่สอง
@@ -53,5 +53,5 @@ $\color{green}{Modeling}$ $\color{green}{(Edit}$ $\color{green}{Mode)}$
 5. `a` --> เลือกวัตถุทั้งหมดในโหมดนั้น
 6. `l` --> เลือกวัตถุที่มีพื้นผิวต่อเนื่องกัน ใช้สำหรับเวลาที่วัตถุมีแบ่งออกหลายส่วน แต่อยู่ทับกัน
 
-### Layout (Object Mode)
+$\color{green}{Layout}$ $\color{green}{(Object}$ $\color{green}{Mode)}$
 - `Ctrl + j` --> รวมวัตถุสองชิ้น ให้เป็นชิ้นเดียว (Join) ก่อนเข้าโหมด Modeling
