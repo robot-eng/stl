@@ -1,5 +1,7 @@
 # Shortcut Keys
-### Modeling (Edit Mode)
+
+$\color{green}{Modeling}$ $\color{green}{(Edit}$ $\color{green}{Mode)}$
+
 1. `Tab` --> สลับระหว่างโหมด Modeling (Edit Mode) กับ Layout (Object Mode)
 2. `Ctrl + Tab` --> เปิดเมนูสำหรับการสลับโหมดต่างๆ
 3. `Shift + a` --> เปิดเมนูสำหรับสร้างวัตถุเพิ่มเติม
