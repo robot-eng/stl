@@ -45,7 +45,7 @@ $\color{green}{View}$
 5. `Shift + Middle Mouse` --> กดค้างไว้เพื่อเลื่อนมุมมองในระนาบ 2 มิติ แบบเดียวกับ Pan
 6. `Shift + z` --> สลับมุมมองระหว่าง Solid กับ Wireframe หรือจะกด z แล้วใช้เมส์เลือกเอาก็ได้ครับ
 
-$\color{green}{Selector}$
+$\color{green}{-Selector}$
 
 1. `Click` --> `Shift + Click -->` เลือกพื้นที่แรก และพื้นที่ที่สอง ที่ต้องการเลือกพร้อมกัน
 2. `Alt + Click` --> เลือก Vertex, Edge, Face ทั้งลูบที่ติดกัน
